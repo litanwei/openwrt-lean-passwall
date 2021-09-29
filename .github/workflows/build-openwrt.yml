@@ -16,8 +16,9 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-#  release:
-#    types: published
+# 触发方式
+release:
+    types: published
 #  push:
 #    branches:
 #      - master
